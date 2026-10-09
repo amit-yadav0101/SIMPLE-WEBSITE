@@ -1,0 +1,106 @@
+
+/* Apply box-sizing to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+/* Hover effect on navigation links */
+nav a:hover {
+    background-color: #666;
+}
+
+/* Main content */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Section styling */
+section {
+    background-color: white;
+    margin: 25px 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #222;
+    color: white;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Footer styling */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
